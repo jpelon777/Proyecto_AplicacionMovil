@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo_app"
+    android:gravity="center">
+
+    <EditText
+        android:id="@+id/txtUnidades"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Unidades"
+        android:inputType="numberDecimal" />
+
+    <EditText
+        android:id="@+id/txtPrecio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Precio"
+        android:inputType="numberDecimal" />
+
+    <Button
+        android:id="@+id/btnCalcular"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Calcular" />
+
+    <TextView
+        android:id="@+id/lblTotalSinIva"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Total sin IVA:"
+        android:textColor="@android:color/white"/>
+
+    <TextView
+        android:id="@+id/lblIva"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="IVA:"
+        android:textColor="@android:color/white"/>
+
+    <TextView
+        android:id="@+id/lblTotalMasIva"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Total con IVA:"
+        android:textColor="@android:color/white"/>
+
+    <Button
+        android:id="@+id/btnRegresar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Regresar" />
+
+</LinearLayout>

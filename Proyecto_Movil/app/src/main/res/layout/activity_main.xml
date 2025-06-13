@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo_montanas">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:padding="24dp"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <Button android:id="@+id/btnEjercicio1" android:text="Ejercicio 1" style="@style/BotonEstilo" />
+        <Button android:id="@+id/btnEjercicio2" android:text="Ejercicio 2" style="@style/BotonEstilo" />
+        <Button android:id="@+id/btnEjercicio3" android:text="Ejercicio 3" style="@style/BotonEstilo" />
+        <Button android:id="@+id/btnEjercicio4" android:text="Ejercicio 4" style="@style/BotonEstilo" />
+        <Button android:id="@+id/btnEjercicio5" android:text="Ejercicio 5" style="@style/BotonEstilo" />
+        <Button android:id="@+id/btnEjercicio6" android:text="Ejercicio 6" style="@style/BotonEstilo" />
+        <Button android:id="@+id/btnEjercicio7" android:text="Ejercicio 7" style="@style/BotonEstilo" />
+        <Button android:id="@+id/btnEjercicio8" android:text="Ejercicio 8" style="@style/BotonEstilo" />
+        <Button android:id="@+id/btnEjercicio9" android:text="Ejercicio 9" style="@style/BotonEstilo" />
+        <Button android:id="@+id/btnEjercicio10" android:text="Ejercicio 10" style="@style/BotonEstilo" />
+
+        <Button
+            android:id="@+id/btnCerrarSesion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:text="Cerrar Sesión" />
+
+    </LinearLayout>
+</ScrollView>

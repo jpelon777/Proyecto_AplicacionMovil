@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layoutActividad3"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:gravity="center"
+    android:background="@drawable/fondo_app">
+
+
+    <EditText
+        android:id="@+id/txtTexto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Escribe algo"
+        android:background="@android:drawable/edit_text"
+        android:padding="10dp"
+        android:textSize="18sp"
+        android:textColor="@android:color/black"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="40dp"
+        android:weightSum="2">
+
+        <TextView
+            android:id="@+id/lblTexto1"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="60dp"
+            android:background="@android:drawable/editbox_background_normal"
+            android:padding="10dp"
+            android:textSize="18sp"/>
+
+        <TextView
+            android:id="@+id/lblTexto2"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="60dp"
+            android:background="@android:drawable/editbox_background_normal"
+            android:padding="10dp"
+            android:textSize="18sp"
+            android:layout_marginStart="16dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="60dp"
+        android:weightSum="3">
+
+        <Button
+            android:id="@+id/btnTraspasa1"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="Traspasa1" />
+
+        <Button
+            android:id="@+id/btnTraspasa2"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="Traspasa2"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp" />
+
+        <Button
+            android:id="@+id/btnRegresar"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="Regresar" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@drawable/fondo_app">
+
+    <Button
+        android:id="@+id/btnOcultarNombre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ocultar Nombre" />
+
+    <Button
+        android:id="@+id/btnVisuNombre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Visualizar Nombre" />
+
+    <TextView
+        android:id="@+id/lblNombre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Jhonatan poblete"
+        android:textSize="18sp"
+        android:textColor="@android:color/white"/>
+
+    <Button
+        android:id="@+id/btnOcultarCiudad"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Ocultar Ciudad"
+        />
+
+    <Button
+        android:id="@+id/btnVisuCiudad"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Visualizar Ciudad" />
+
+    <TextView
+        android:id="@+id/lblCiudad"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Zaachila"
+        android:textSize="18sp"
+        android:textColor="@android:color/white"
+        />
+
+    <Button
+        android:id="@+id/btnRegresar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="Regresar" />
+
+</LinearLayout>
+
+
